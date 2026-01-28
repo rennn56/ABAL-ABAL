@@ -1,0 +1,173 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.4.0)"
+    },
+    "extensionsUsed": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 391068,
+            "type": "VEC3",
+            "max": [
+                1.0020400285720825,
+                0.7891579866409302,
+                1.0038880109786987
+            ],
+            "min": [
+                -1.0051430463790894,
+                -0.793569028377533,
+                -1.0059839487075806
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 391068,
+            "type": "VEC3",
+            "max": [
+                0.9999951124191284,
+                1.0,
+                0.9999921321868896
+            ],
+            "min": [
+                -0.9999654293060303,
+                -1.0,
+                -0.9999624490737915
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 391068,
+            "type": "VEC2",
+            "max": [
+                0.9976000189781189,
+                0.9980890154838562
+            ],
+            "min": [
+                0.0019109999993816018,
+                0.0019109845161437988
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 1928919,
+            "type": "SCALAR",
+            "max": [
+                391067
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 20229852,
+            "uri": "_3D_cartoon_style_a__1112023203_texture_0.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 4692816,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 4692816,
+            "byteLength": 4692816,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 9385632,
+            "byteLength": 3128544,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 12514176,
+            "byteLength": 7715676,
+            "target": 34963
+        }
+    ],
+    "images": [
+        {
+            "uri": "textures/image_0.png"
+        }
+    ],
+    "materials": [
+        {
+            "name": "Mat_1",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.800000011920929
+            },
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "meshes[0]",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 3,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "_3D_cartoon_style_a__1112023203_texture",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "mesh_0",
+            "mesh": 0
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "source": 0,
+            "sampler": 0
+        }
+    ],
+    "scene": 0
+}

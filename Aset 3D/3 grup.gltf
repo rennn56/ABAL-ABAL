@@ -1,0 +1,173 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.4.0)"
+    },
+    "extensionsUsed": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 117937,
+            "type": "VEC3",
+            "max": [
+                0.9826589822769165,
+                0.3403860032558441,
+                0.45302700996398926
+            ],
+            "min": [
+                -1.0021109580993652,
+                -0.3479759991168976,
+                -0.45101600885391235
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 117937,
+            "type": "VEC3",
+            "max": [
+                0.9999982118606567,
+                0.9999986886978149,
+                0.9999951124191284
+            ],
+            "min": [
+                -0.9999276399612427,
+                -0.9999988079071045,
+                -0.9999849796295166
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 117937,
+            "type": "VEC2",
+            "max": [
+                0.9948220252990723,
+                0.9982560276985168
+            ],
+            "min": [
+                0.001744000008329749,
+                0.0017439723014831543
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 556992,
+            "type": "SCALAR",
+            "max": [
+                117936
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 6001952,
+            "uri": "_A_group_of_three_cut_1112031055_texture_0.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 1415244,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1415244,
+            "byteLength": 1415244,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2830488,
+            "byteLength": 943496,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 3773984,
+            "byteLength": 2227968,
+            "target": 34963
+        }
+    ],
+    "images": [
+        {
+            "uri": "textures/image_0.png"
+        }
+    ],
+    "materials": [
+        {
+            "name": "Mat_1",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.800000011920929
+            },
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "meshes[0]",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 3,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "_A_group_of_three_cut_1112031055_texture",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "mesh_0",
+            "mesh": 0
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "source": 0,
+            "sampler": 0
+        }
+    ],
+    "scene": 0
+}
